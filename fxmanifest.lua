@@ -27,9 +27,7 @@ server_scripts {
 }
 
 escrow_ignore {
-
-    'config.lua'
-
+'config.lua'
 }
 
 dependencies {
