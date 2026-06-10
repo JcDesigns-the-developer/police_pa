@@ -9,8 +9,6 @@ version '0.0.1'
 
 lua54 'yes'
 
-ui_page 'html/index.html'
-
 shared_scripts {
     '@qb-core/shared/locale.lua',
     'config.lua'
