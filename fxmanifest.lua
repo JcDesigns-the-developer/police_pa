@@ -1,6 +1,12 @@
 fx_version 'cerulean'
 game 'gta5'
 
+author 'Jc Designs'
+
+description 'police pa ststem'
+
+version '0.0.1'
+
 lua54 'yes'
 
 ui_page 'html/index.html'
@@ -18,6 +24,12 @@ client_scripts {
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
     'server.lua'
+}
+
+escrow_ignore {
+
+    'config.lua'
+
 }
 
 dependencies {
